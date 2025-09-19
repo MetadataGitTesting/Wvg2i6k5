@@ -1,0 +1,137 @@
+name: petra.murphy
+description: systematic
+version: 0.0.1
+author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: petramurphy
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-09-19 23:31:40'
+pipelines:
+  pipelines/P1:
+    name: P1
+    description: null
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:31:40'
+    datasets:
+      inputs:
+      - 267/datasets/D1
+      - 267/datasets/D2
+      outputs:
+      - 267/datasets/D3
+      - 267/datasets/D6
+    subgraphs: []
+    dependencies: {}
+  pipelines/P2:
+    name: P2
+    description: null
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:31:40'
+    datasets:
+      inputs: []
+      outputs:
+      - 267/datasets/D4
+    subgraphs: []
+    dependencies: {}
+  pipelines/P3:
+    name: P3
+    description: null
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:31:40'
+    datasets:
+      inputs: []
+      outputs:
+      - 267/datasets/D5
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/D1:
+    name: D1
+    description: ''
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    createdAt: '2025-09-19 23:31:40'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D2:
+    name: D2
+    description: ''
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    createdAt: '2025-09-19 23:31:40'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D3:
+    name: D3
+    description: ''
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    createdAt: '2025-09-19 23:31:40'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D4:
+    name: D4
+    description: ''
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    createdAt: '2025-09-19 23:31:40'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D5:
+    name: D5
+    description: ''
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    createdAt: '2025-09-19 23:31:40'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D6:
+    name: D6
+    description: ''
+    author: lt5rsuyq.nr5mz8o7@xxsdwzky.com
+    createdAt: '2025-09-19 23:31:40'
+    mode: batch
+    physicalDatasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:31:40'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-09-19T23:31:40.109155Z'
+  name: plibMaven
+  version: 8.14.0-SNAPSHOT
+  id: '660988090'
+  createdAt: '2025-09-19T23:31:40.109155Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
